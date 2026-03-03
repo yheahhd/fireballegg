@@ -1,0 +1,56 @@
+# 火球飞行速度
+# fireball speed
+fireball-speed: 0.9
+
+# 冷却时间（毫秒）
+# cooldown time (ms)
+cooldown: 50
+
+# 是否消耗物品（true为消耗，false为不消耗）
+# Whether to consume items
+consume-item: true
+
+# 击退设置
+# kb settings
+# 垂直kb
+# vertical kb
+vertical-knockback: 0.95
+
+# 水平基础kb
+# base horizontal kb
+base-horizontal-knockback: 2.5
+
+# 安全击退范围（在这个范围内，水平kb会大大减少）
+# safe explosion radius (There will be less horizontal kb in this area)
+safe-explosion-radius: 0.5
+max-knockback-distance: 3.5
+max-knockback-speed: 3.0
+
+# 击退冷却时间（毫秒，防止短时间内多次击退）
+# kb cooldown (ms, Prevent multiple knockbacks in a short period of time)
+knockback-cooldown: 50
+
+# 是否影响发射者自己
+# Will it influence shooter
+affect-shooter: true
+
+# 击退保护设置
+# kb protection settings
+
+# 是否开启kb保护
+# Whether to enable KB protection
+knockback-protection-enabled: true
+knockback-protection-duration: 200
+force-velocity-task-enabled: true
+
+# 判定“向下看”或“向上看”的角度阈值（度数，0为水平，向下为正）
+# Determine the angle threshold for 'looking down' or 'looking up' (degrees, 0 is horizontal, positive is downward)
+look-angle-threshold: 60
+
+# 向下看时的水平击退倍数（>1 加强）
+# Horizontal knockback multiplier when looking down (>1 strengthens)
+look-down-multiplier: 1.5
+
+# 向上看且能够到方块时的水平击退倍数（<1 减弱）
+# The horizontal knockback multiplier when looking up and able to reach the block (<1 weakens)
+look-up-reach-multiplier: 0.5

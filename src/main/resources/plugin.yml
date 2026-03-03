@@ -1,0 +1,19 @@
+name: FireballEgg
+version: 1.0.0
+main: com.yourdomain.fireballeg.FireballEggPlugin
+api-version: 1.20
+authors: [dggw1,deepseek]
+description: 允许玩家使用烈焰蛋发射火球
+
+commands:
+  fireballeg:
+    description: 获取烈焰蛋或重载配置
+    usage: /<command> [get|reload]
+
+permissions:
+  fireballeg.reload:
+    description: 允许重载插件配置
+    default: op
+  fireballeg.use:
+    description: 允许使用烈焰蛋
+    default: true
